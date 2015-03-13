@@ -1,0 +1,27 @@
+{
+  "name": "win-api",
+  "version": "0.0.1",
+  "description": " WIN module that handles all things API related! Save/load, Schema validation, schema loading, schema remote loads, etc etc etc",
+  "keywords": [
+    "WIN",
+    "evolution",
+    "iec",
+    "neat"
+  ],
+  "repository": {
+    "url": "https://github.com/OptimusLime/win-api",
+    "type": "git"
+  },
+  "main": "lib/win-api.js",
+  "dependencies": {
+    "optimuslime-traverse": "*",
+    "tv4": "*"
+  },
+  "devDependencies": {
+    "colors": "*",
+    "q": "*",
+    "should": "*",
+    "mocha": "*",
+    "express" : "4.x.x"
+  }
+}
