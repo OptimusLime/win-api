@@ -15,13 +15,15 @@
   "main": "lib/win-api.js",
   "dependencies": {
     "optimuslime-traverse": "*",
-    "tv4": "*"
+    "tv4": "*",
+    "mongoose": "*",
+    "win-utils" : "*",
+    "express" : "4.x.x"
   },
   "devDependencies": {
     "colors": "*",
     "q": "*",
     "should": "*",
-    "mocha": "*",
-    "express" : "4.x.x"
+    "mocha": "*"
   }
 }

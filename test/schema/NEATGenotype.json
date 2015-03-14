@@ -1,0 +1,22 @@
+{
+    "nodes": 
+        {"type" : "array", 
+        "items" : {
+            "gid": "String",
+            "step": {"type": "Number"},
+            "bias": {"type": "number"},
+            "activationFunction": "String",
+            "nodeType": "string",
+            "layer": {"type": "Number"}
+            }
+        },
+    "connections": 
+        {"type" : "array", 
+            "items" : {
+            "gid" : "String",
+            "sourceID": "String",
+            "targetID": "String",
+            "weight": "Number"}
+        }
+}
+
