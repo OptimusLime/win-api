@@ -18,11 +18,12 @@
     "tv4": "*",
     "mongoose": "*",
     "win-utils" : "*",
+    "q": "*",
     "express" : "4.x.x"
   },
   "devDependencies": {
     "colors": "*",
-    "q": "*",
+    
     "should": "*",
     "mocha": "*"
   }
