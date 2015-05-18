@@ -44,6 +44,7 @@ describe('Testing WIN API -',function(){
                 requireByDefault : true,
                 metaProperties: metaProps
             },
+            schemaLocation: "./test/schema",
             mongo : {dbLocation : dbLocation},
             redis: {}
         }
@@ -69,12 +70,9 @@ describe('Testing WIN API -',function(){
 
         console.log("\tClearing db now!".magenta)
 
-        //load the schema 
-        winAPIObject.dataAccess.loadWINSchemas("./test/schema")
-            .then(function()
-            {
-                return winAPIObject.dataAccess.clearDatabases();
-            })
+        //loading the schema should have happend at initialization
+        //so we can just clear dbs now 
+        winAPIObject.dataAccess.clearDatabases()
             .catch(function(error)
             {
                 console.log("\tDB Clear Fail.".red, error)
