@@ -1,6 +1,6 @@
 {
   "name": "win-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": " WIN module that handles all things API related! Save/load, Schema validation, schema loading, schema remote loads, etc etc etc",
   "keywords": [
     "WIN",
